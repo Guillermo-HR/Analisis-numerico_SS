@@ -21,4 +21,4 @@ Supervisor:
 
 ---
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Guillermo-HR/Analisis-numeric/main?labpath=Manual+de+usuario%2FmanualUsuario.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Guillermo-HR/Analisis-numerico/main?labpath=Manual+de+usuario%2FmanualUsuario.ipynb)
