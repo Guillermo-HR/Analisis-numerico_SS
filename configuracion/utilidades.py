@@ -148,6 +148,26 @@ def graficarN_R(f:sp.Expr, x_i:float)->plt.Figure:
     fig = graficar('Método de Newton-Raphson', [rango_x, valores_y, f'f(x)'], puntos = [(x_i, 0, f'Raíz = {np.round(x_i, 3)}')], markersize = 5, fontsize = 10)
     return fig
 
+def graficarTrapecio(f:sp.Expr, a:float, b:float)->plt.Figure:
+    """
+    Funcion para graficar el método del trapecio.
+    Parametros:
+        f: funcion a evaluar.
+        a: valor inferior del intervalo.
+        b: valor superior del intervalo.
+    Retorna:
+        fig: figura de la grafica.
+    """
+    # crear el rango de x y valores de y
+    a = float(a)
+    b = float(b)
+    minimo = a - 1
+    maximo = b + 1
+    rango_x = np.linspace(minimo, maximo, 500, dtype = 'float')
+    valores_y = [f(x) for x in rango_x]
+
+    fig = graficar('Método del trapecio', [rango_x, valores_y, f'f(x)'], puntos = [(a, 0, f'a = {np.round(a, 3)}'), (b, 0, f'b = {np.round(b, 3)}')], markersize = 5, fontsize = 10)
+    return fig
 # ------------------- Tabulación -------------------
 
 # ------------------- Guardar resultados -------------------
