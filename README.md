@@ -19,6 +19,5 @@ Supervisor:
 
 - Edgar Ali Ramos Gomez
 
----
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Guillermo-HR/Analisis-numerico/main?labpath=Manual+de+usuario%2FmanualUsuario.ipynb)
+https://malinche.fi-c.unam.mx/
